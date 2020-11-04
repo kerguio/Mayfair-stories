@@ -23,7 +23,7 @@ function geojson(features) {
           "name": features[feature].name,
           "fame": features[feature].Famous_for,
           "address": features[feature].Address,
-          "hear": features[feature].hear_the_story,
+          "hear": features[feature].Hear_the_story,
         }
       };
       geojson.features.push(plak);
